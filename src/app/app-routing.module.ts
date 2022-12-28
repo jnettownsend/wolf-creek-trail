@@ -6,6 +6,7 @@ import { LogComponent } from './log/log.component';
 import { MapsComponent } from './maps/maps.component';
 
 const routes: Routes = [
+  { path: "", redirectTo: "/home", pathMatch: "full" },
   { path: "home", component: HomeComponent },
   { path: "maps", component: MapsComponent},
   { path: "log", component: LogComponent },

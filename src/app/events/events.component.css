@@ -1,6 +1,30 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
 .events {
   border-radius: 10px;
-  background-color:dimgrey;
+  background-color:rgba(105, 105, 105, 0.329);
   margin: 10px;
   padding: 20px;
+  box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.26);
+  width: 700px;
+}
+
+.events:hover {
+  background-color:rgba(145, 145, 145, 0.452);
+}
+
+.btn {
+  background-color: yellow;
+  padding: 7px 9px;
+  border-width: 0px;
+  border-radius: 7px;
+  font-size: 15px;
+  box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.26);
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 3px 4px rgba(0, 0, 0, 0.356);
 }

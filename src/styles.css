@@ -1,5 +1,12 @@
 body {
   color: white;
   background-color: black;
-  margin: 5%;
+  margin: 2%;
+  /* background-image: url("/WolfCreek.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-position-y: top; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }

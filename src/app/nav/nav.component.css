@@ -4,7 +4,7 @@
 
   li a {
     display: block;
-    padding: 8px;
+    padding: 3px 10px;
     color: white;
     text-decoration: none;
     font-size: large;
@@ -19,5 +19,9 @@
   }
 
   li a:hover {
-    background-color: #239c47;
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 7px 5px;
+    border: none;
   }
+

@@ -1,3 +1,40 @@
-.bkg {
-    background-image: src("..\assets\WolfCreek.png");
+p {
+    width: 360px;
+}
+
+.btn {
+    background-color: yellow;
+    padding: 7px 9px;
+    border-width: 0px;
+    border-radius: 7px;
+    font-size: 15px;
+    box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.26);
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 3px 4px rgba(0, 0, 0, 0.356);
+}
+
+.welcome {
+    margin-top: 44%;
+    margin-left: 2%;
+    position: relative;
+    background-color: rgba(172, 171, 170, 0.226);
+    color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 390px;
+    box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.26);
+}
+
+.cover {
+  position: absolute;
+  size: cover;
+  background-position-y: 0;
+  margin-top: 0px;
+  width: 96%;
 }

@@ -1,4 +1,4 @@
-.btn {
+.btnOne {
     background-color: yellow;
     padding: 7px 9px;
     border-width: 0px;
@@ -7,7 +7,7 @@
     box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.26);
 }
 
-.btn:hover {
+.btnOne:hover {
     cursor: pointer;
     box-shadow: 4px 4px 3px 4px rgba(0, 0, 0, 0.356);
 }
@@ -39,3 +39,55 @@
 .about {
     width: 80%;
 }
+
+/* Map Insert */
+
+.trail {
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding: 5px 15px;
+    width: 500px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .trail-list {
+    column-count: 6;
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+  }
+
+
+  .trailMap {
+    float: left;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+
+  .btn {
+    padding: 7px 15px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.151);
+    background-color: yellow;
+    border-width: 1px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+  .btn:hover {
+    border-color: rgba(0, 0, 0, 0.37);
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+  }
+
+/* End of Map Insert */
